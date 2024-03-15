@@ -19,8 +19,8 @@ const HeroContents = () => {
             variants={slideInFromTop}
             className='Welcome-box py-[15px] px-[4px] ml-[25px] border border-[#7042f88b] opacity-[0.9]'
             >
-                <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                <h1 className='Welcome-text text-[13px]'>Vik Bhatt's Portfolio</h1>
+                <SparklesIcon className='text-[#b49bff] mr-[10px] ml-[10px] h-5 w-5' />
+                <h1 className='Welcome-text text-[13px] mr-[20px]'>Pure Pixel</h1>
                 
             </motion.div>
 
@@ -37,14 +37,15 @@ const HeroContents = () => {
 
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-5 max-w-[600px]'
+            className='text-lg text-gray-400 m-6 my-5 max-w-[600px]'
+            //I&apos;m If you need to add an apostrophe - output: I'm 
             >
-                I&apos;m a full stack software engineer with experience in Websites, Apps, and Software development. Check out my projects and skills. 
+                We are a team of full stack software engineer with experience in Websites, Apps, and Software development. Check out our projects and skills. 
             </motion.p>
 
             <motion.a
             variants={slideInFromLeft(1)}
-            className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+            className='py-2 button-primary text-center m-6 text-white cursor-pointer rounded-lg max-w-[200px]'
             >
                 Learn More!
             </motion.a>
